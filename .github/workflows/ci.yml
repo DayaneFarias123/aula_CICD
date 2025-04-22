@@ -17,10 +17,10 @@ jobs:
     - name: Compilar o programa
       run: gcc GitHub.C -o programa
 
-    -name: executar o programa
+    - name: executar o programa
       run: ./programa
 
-    -name: Executar testes automáticos
+    - name: Executar testes automáticos
       run: |
-      gcc -teste teste.c
-      ./teste
+        gcc -teste teste.c
+        ./teste

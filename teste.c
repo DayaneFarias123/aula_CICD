@@ -3,10 +3,10 @@
 
 void testar() {
   //função de teste simples
-assert(1==1); //verificar se 1 é igual a 1
-printf("teste passou!/n");
+  assert(1==1); //verificar se 1 é igual a 1
+  printf("teste passou!/n");
 }
 int main (){
   testar();
-return 0;
+  return 0;
 }
